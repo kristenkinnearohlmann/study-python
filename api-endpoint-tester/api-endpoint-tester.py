@@ -7,3 +7,9 @@ import requests
 if __name__ == "__main__":
     var_name = "Kristen"
     print(f"Run {var_name}")
+
+    # get data from endpoint
+
+    # check that data is XML
+
+    # check each tag for data of type
