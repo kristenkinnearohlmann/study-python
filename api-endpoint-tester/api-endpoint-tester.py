@@ -9,6 +9,8 @@ if __name__ == "__main__":
     print(f"Run {var_name}")
 
     # get data from endpoint
+    request = requests.get('https://sv443.net/jokeapi/v2/joke/Any?format=xml')
+    print(request.text)
 
     # check that data is XML
 
